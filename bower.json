@@ -1,0 +1,31 @@
+{
+  "name": "nvd3-line",
+  "version": "0.0.0",
+  "authors": [
+    "Saeid Zebardast <saeid.zebardast@gmail.com>"
+  ],
+  "description": "An element to create line chart using nvd3.",
+  "keywords": [
+    "web-component",
+    "polymer",
+    "nvd3",
+    "d3",
+    "chart",
+    "seed"
+  ],
+  "main": "nvd3-line.html",
+  "license": "http://saeidzebardast.github.io/nvd3-elements/LICENSE.txt",
+  "homepage": "https://github.com/saeidzebardast/nvd3-line/",
+  "ignore": [
+    "/.*",
+    "/test/"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#^1.1.5",
+    "nvd3": "~1.8.1"
+  },
+  "devDependencies": {
+    "iron-component-page": "PolymerElements/iron-component-page#^1.0.0",
+    "web-component-tester": "*"
+  }
+}
