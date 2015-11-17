@@ -1,6 +1,6 @@
-# <nvd3-line>
+# &lt;nvd3-line&gt;
 
-An element to create line chart using nvd3. It's part of [nvd3 charting elements](https://github.com/saeidzebardast/nvd3-elements). 
+An polymer element to create line chart using nvd3. It's part of [nvd3 charting elements](https://github.com/saeidzebardast/nvd3-elements). 
 
 ## Install
 ```
