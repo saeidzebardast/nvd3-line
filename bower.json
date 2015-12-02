@@ -1,10 +1,10 @@
 {
   "name": "nvd3-line",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "authors": [
     "Saeid Zebardast <saeid.zebardast@gmail.com>"
   ],
-  "description": "An element to create line chart using nvd3.",
+  "description": "Line chart element for Polymer using nvd3.",
   "keywords": [
     "web-component",
     "web-components",
