@@ -7,6 +7,7 @@
   "description": "An element to create line chart using nvd3.",
   "keywords": [
     "web-component",
+    "web-components",
     "polymer",
     "nvd3",
     "d3",
