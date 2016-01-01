@@ -1,4 +1,4 @@
-# &lt;nvd3-line&gt;
+# &lt;nvd3-line&gt;  [![Build Status](https://travis-ci.org/saeidzebardast/nvd3-line.svg?branch=master)](https://travis-ci.org/saeidzebardast/nvd3-line)
 
 A polymer element to create line chart using nvd3. It's part of [nvd3 charting elements](https://github.com/saeidzebardast/nvd3-elements).
 
