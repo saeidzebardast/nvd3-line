@@ -12,7 +12,7 @@ $ bower install nvd3-line
 ### Tag
 
 ```
-<nvd3-line data="[[data]]"></nvd3-line>
+<nvd3-line data="[[data]]" auto-resize></nvd3-line>
 ```
 
 ### Data Format
