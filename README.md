@@ -1,7 +1,5 @@
-# &lt;nvd3-line&gt;  [![Build Status](https://travis-ci.org/saeidzebardast/nvd3-line.svg?branch=master)](https://travis-ci.org/saeidzebardast/nvd3-line)
-
-A polymer element to create line chart using nvd3. It's part of [nvd3 charting elements](https://github.com/saeidzebardast/nvd3-elements).
-
+# &lt;nvd3-line&gt; [![Build Status](https://travis-ci.org/saeidzebardast/nvd3-line.svg?branch=master)](https://travis-ci.org/saeidzebardast/nvd3-line)
+Line chart element for [Polymer](https://www.polymer-project.org) using [nvd3](http://nvd3.org/). It's part of [nvd3 charting elements](https://github.com/saeidzebardast/nvd3-elements).
 ## Install
 ```
 $ bower install nvd3-line
@@ -67,5 +65,8 @@ $ bower install nvd3-line
 ]
 ```
 ## License
+
+## Demo and Options
+See the [component page](http://saeidzebardast.github.io/nvd3-line) for demo and options.
 
 MIT © [Saeid Zebardast](http://zebardast.com)
