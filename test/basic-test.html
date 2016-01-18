@@ -39,12 +39,12 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 
       test('height is set', function() {
         myEl.set('height', 300);
-        assert.equal(myEl.chart.height(), myEl.height);
+        assert.equal(myEl.querySelector('div').clientHeight, myEl.height);
       });
 
       test('width is set', function() {
         myEl.set('width', 400);
-        assert.equal(myEl.chart.width(), myEl.width);
+        assert.equal(myEl.querySelector('div').clientWidth, myEl.width);
       });
 
       test('show legend is false', function() {
