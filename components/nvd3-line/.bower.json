@@ -1,0 +1,41 @@
+{
+  "name": "nvd3-line",
+  "authors": [
+    "Saeid Zebardast <saeid.zebardast@gmail.com>"
+  ],
+  "description": "Line chart element for Polymer using nvd3.",
+  "keywords": [
+    "web-component",
+    "web-components",
+    "polymer",
+    "nvd3",
+    "d3",
+    "chart",
+    "graph"
+  ],
+  "main": "nvd3-line.html",
+  "license": "http://saeidzebardast.github.io/nvd3-elements/LICENSE.txt",
+  "homepage": "https://github.com/saeidzebardast/nvd3-line/",
+  "ignore": [
+    "/.*",
+    "/test/"
+  ],
+  "dependencies": {
+    "nvd3-behavior": "^0.7.0"
+  },
+  "devDependencies": {
+    "iron-component-page": "PolymerElements/iron-component-page#^1.0.0",
+    "web-component-tester": "*",
+    "github-fork-ribbon": "^0.2.0"
+  },
+  "_release": "faff11a6b2",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "faff11a6b2b347d777f14d42b87e4a2ef1d01ca1"
+  },
+  "_source": "git://github.com/saeidzebardast/nvd3-line.git",
+  "_target": "master",
+  "_originalSource": "saeidzebardast/nvd3-line",
+  "_direct": true
+}
