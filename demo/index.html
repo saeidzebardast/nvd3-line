@@ -15,13 +15,13 @@
   <p>An example of
     <code>&lt;nvd3-line&gt;</code>:</p>
 
-  <nvd3-line show-legend use-interactive-guideline auto-resize>
+  <nvd3-line height="400" show-legend use-interactive-guideline auto-resize>
 
   </nvd3-line>
 
   <script>
     var el = document.querySelector('nvd3-line');
-    el.set('data', [{
+    el.data = [{
       "values": [{
         "x": 0,
         "y": 0
@@ -629,7 +629,7 @@
       }],
       "key": "Cosine Wave",
       "color": "#2ca02c"
-    }]);
+    }];
   </script>
 
 </body>

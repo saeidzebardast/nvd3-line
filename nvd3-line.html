@@ -91,7 +91,7 @@ Data Format:
         chart: {
           type: Object,
           value: function() {
-            return  nv.models.lineChart();
+            return nv.models.lineChart();
           }
         },
 
@@ -138,17 +138,17 @@ Data Format:
         },
 
         /**
-        * Whether to display the legend or not
-        */
+         * Whether to display the legend or not
+         */
         showLegend: {
           type: Boolean,
           value: false
         },
 
         /**
-        * Sets the chart to use a guideline and floating tooltip instead of
-        * requiring the user to hover over specific hotspots.
-        */
+         * Sets the chart to use a guideline and floating tooltip instead of
+         * requiring the user to hover over specific hotspots.
+         */
         useInteractiveGuideline: {
           type: Boolean,
           value: false
@@ -179,7 +179,7 @@ Data Format:
 
       _setHeight: function(height) {
         if (typeof height === 'number' && height > 0) {
-          this.chart.height(height);
+          this.$$('div').style.height = height + 'px';
         }
       },
 
@@ -223,7 +223,7 @@ Data Format:
 
       _setWidth: function(width) {
         if (typeof width === 'number' && width > 0) {
-          this.chart.width(width);
+          this.$$('div').style.width = width + 'px';
         }
       },
 
